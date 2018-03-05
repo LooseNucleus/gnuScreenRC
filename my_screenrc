@@ -1,0 +1,18 @@
+bindkey "5A" focus up
+bindkey "5B" focus down
+bindkey "5D" focus left
+bindkey "5C" focus right
+bindkey "i" focus up 
+bindkey "k" focus down 
+bindkey "j" focus left 
+bindkey "l" focus right
+
+
+
+shell -$bash
+
+
+split
+screen -t 1 bash 
+focus down 
+screen -t bash
